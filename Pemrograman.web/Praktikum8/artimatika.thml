@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skrip Javascript</title>
+</head>
+<body>
+    <script language="Javascript">
+        <!--
+            function pesan() {
+                alert ("memanggil javascript lewat body onload")
+            }
+        -->
+    </script>
+    <body onload=pesan()>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contoh program Javascript</title>
+    <script language="Javascript">
+        <!--
+            function test(val1,val2) {
+                document.write("<br>"+"perkalian : val1*val2"+"<br>")
+                document.write(val1*val2)
+                document.write("<br>"+"pembagian : val1/val2"+"<br>")
+                document.write(val1/val2)
+                document.write("<br>"+"penjumlaham : val1+val2"+"<br>")
+                document.write(val1+val2)
+                document.write("<br>"+"pengurangan : val1-val2"+"<br>")
+                document.write(val1-val2)
+                document.write("<br>"+"modulus : val1%val2"+"<br>")
+                document.write(val1%val2)
+            }
+        -->
+    </script>
+</head>
+<body>
+    <input type="button" name="button1" value="arithmetic" onclick=test(9,4)>
+</body>
+</html>
